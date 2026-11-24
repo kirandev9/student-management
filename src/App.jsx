@@ -31,11 +31,11 @@ function App() {
     },
     {
       id: '1700000000003',
-      fullName: 'Emma Watsons',
+      fullName: 'Emma Watson',
       email: 'emma.w@university.edu',
       phone: '+1 555-246-8101',
       department: 'Business Administration',
-      registeredAt: 'Nov 15, 2026',
+      registeredAt: 'Nov 19, 2026',
     },
   ]);
 
