@@ -31,7 +31,7 @@ function App() {
     },
     {
       id: '1700000000003',
-      fullName: 'Emma Watson',
+      fullName: 'Emma Watsons',
       email: 'emma.w@university.edu',
       phone: '+1 555-246-8101',
       department: 'Business Administration',
