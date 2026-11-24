@@ -14,12 +14,12 @@ function App() {
   // 1. Initial sample student data for beginner preview
   const [students, setStudents] = useState([
     {
-      id: '1700000000001',
-      fullName: 'Sophia Martinez',
-      email: 'sophia.m@university.edu',
-      phone: '+1 555-012-3456',
-      department: 'Computer Science',
-      registeredAt: 'Nov 12, 2026',
+      id: '1700000000004',
+      fullName: 'Olivia Brown',
+      email: 'olivia.b@university.edu',
+      phone: '+1 555-111-2222',
+      department: 'Software Engineering',
+      registeredAt: 'Nov 20, 2026',
     },
     {
       id: '1700000000002',
@@ -117,9 +117,9 @@ function App() {
         {/* Welcome Hero Banner */}
         <div className="welcome-banner">
           <div className="banner-text">
-            <h2>Welcome to Student Administration Hub 👋</h2>
+            <h2>Welcome to EduManage Student Portal 🎓</h2>
             <p>
-              Manage student enrollment, monitor academic departments, and maintain accurate records seamlessly.
+              Track student registrations, manage academic information, and organize your university records in one place.
             </p>
           </div>
           <div className="banner-action">
@@ -153,7 +153,7 @@ function App() {
 
       {/* Footer */}
       <footer className="footer">
-        <p>© 2026 EduManage Portal — Built with React & Vite for beginner developers</p>
+        <p>© 2026 EduManage Student System — Developed by the IT Department</p>
       </footer>
     </div>
   );
